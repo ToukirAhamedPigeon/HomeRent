@@ -1,0 +1,92 @@
+body {
+  background: url(../Content/img/Website/dhaka3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.reg-form {
+  width: 1200px;
+  padding: 50px;
+  background-color:white;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  color:cornflowerblue;
+  text-align: center;
+  font-family: 'Vibur', cursive;
+}
+
+.nodisplay
+{
+	display:none;
+}
+
+.wrong-entry {
+  border-color: #ed1c24;
+  color: #ed1c24;
+}
+
+.valid
+{
+	border-color: green;
+    color: green;
+}
+.alert {
+	width: 300px;
+    padding: 1px;
+    margin: 1px;
+    color: #f00;
+	font-size: 12px;
+}
+.link {
+  text-decoration: none;
+  color: #C6C6C6;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.link :hover
+{
+  text-decoration: none;
+  color:deepskyblue; 
+}
+.content
+{
+	position: relative;
+	width:31%;
+	height: 460px;
+	padding: 3px;
+	float: left;
+	margin: 9px;
+    border-radius: 15px;
+	background-color:#1394E5;
+	/*background-color:#;*/
+	box-shadow:2px 2px; 
+}
+.content:hover
+{
+	cursor: pointer;
+	background-color:#58B5F8;
+	box-shadow:0px 0px;
+}
+.back
+{
+	background-color: white;
+	color:dodgerblue;
+	padding: 10px;
+	font-family:Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	border-radius: 15px;
+}
+.other
+{
+	color: azure;
+	text-align: center;
+	font-family:Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+}
